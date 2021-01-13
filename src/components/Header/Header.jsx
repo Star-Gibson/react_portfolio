@@ -3,10 +3,10 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-3">Star Gibson - Web Developer</h1>
-                <p class="lead display-4">Raleigh, NC</p>
+        <div className="jumbotron jumbotron-fluid">
+            <div className="container">
+                <h1 className="display-2">Star Gibson</h1>
+                <p className="lead display-4">Web Developer</p>
             </div>
         </div>
     )
