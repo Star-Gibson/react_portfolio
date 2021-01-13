@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className="footer">
-            <p> 
+            <p className="mb-0"> 
                 Created by: Star Gibson
             </p>
                 <div className="githubFooter">
@@ -20,7 +20,7 @@ const Footer = () => {
                 </a>
                 </div>
                 <div className="phoneFooter">
-                <a href="https://github.com/Star-Gibson">
+                <a href="tel: 919-815-2461">
                 <i className="fas fa-phone-alt"></i>
                     Phone
                 </a>
