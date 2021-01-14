@@ -1,0 +1,10 @@
+#portfolioDisplay{
+   margin: 2rem;
+   border-style: inset;
+   border-width: thick;
+  }
+
+  .cardButtons{
+      display: flex;
+      justify-content: space-evenly;
+  }
