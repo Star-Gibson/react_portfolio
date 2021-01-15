@@ -1,0 +1,6 @@
+.jumbotron{
+    background-image: url("./img/backgroundImg.jpeg");
+   background-size: cover;
+   color: white;
+   font-weight: 600;
+}

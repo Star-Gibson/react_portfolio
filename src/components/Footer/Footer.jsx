@@ -1,11 +1,13 @@
 import React from 'react';
+import "../Footer/Footer.css";
 
 const Footer = () => {
     return (
-        <div className="footer">
-            <p className="mb-0"> 
+        <div className="footer my-0  p-3">
+            <p className="createdBy"> 
                 Created by: Star Gibson
             </p>
+            <div className="footerLinks">
                 <div className="githubFooter">
                 <a href="https://github.com/Star-Gibson">
                 <i className="fab fa-github">
@@ -25,6 +27,7 @@ const Footer = () => {
                     Phone
                 </a>
                 </div>
+            </div>
             </div>
     )
 }
