@@ -2,5 +2,11 @@
     display: flex;
     justify-content: space-evenly;
     font-size: x-large;
+    color: white
+}
+
+#navigation a{
+    color: white;
+    font-size: xx-large
 }
 

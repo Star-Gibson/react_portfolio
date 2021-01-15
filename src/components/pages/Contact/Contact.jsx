@@ -1,17 +1,17 @@
 import React from 'react'
 import Header from "../../Header/Header";
 import Footer from "../../Footer/Footer";
-
+import "../Contact/Contact.css"
 const Contact = () => {
 
   return (
     <div>
     <Header />
-    <div className="container mb-3">
-        <div className="card">
+    <div className="container mb-3" >
+        <div className="card" id="contactInfo">
             <div className="card-title">
                 <h1>Contact Information</h1>
-                <img className="rounded-circle" width="128px" src="./assets/img/profilePic.jpeg" alt="" />
+                <img className="rounded-circle" width="256px" src="./assets/img/profilePic.jpeg" alt="" />
             </div>
             <div className="card-body">
                 <p><strong>Email:</strong> sgibsoncoding@gmail.com</p>

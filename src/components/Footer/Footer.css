@@ -1,10 +1,16 @@
 .footer{
     background-color: lightgray;
-    color: black
+    color: black;
+    font-size: larger
 }
 
 .footerLinks {
     display:flex; 
     justify-content: space-evenly;
+}
+
+.footerLinks a{
+color: black;
+font-size: x-large
 }
 

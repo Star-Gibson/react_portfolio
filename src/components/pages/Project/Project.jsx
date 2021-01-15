@@ -36,7 +36,7 @@ const Project = () => {
         <div>
             <Header />
             <div className="container">
-                <h1>Projects</h1>
+                <h1>Portfolio</h1>
                 <div className="card" id="portfolioDisplay">
                     <img className="card-img-top" src="/assets/img/DSR.gif" alt="dailyServiceRecord" />
                     <div className="card-body">
