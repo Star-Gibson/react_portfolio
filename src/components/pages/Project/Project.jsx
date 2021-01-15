@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import "../Project/Project.css";
+import  Header from "../../Header/Header";
+import  Footer from "../../Footer/Footer";
 
 const Project = () => {
-  const [reactEmployeeDirectory] = useState({
+    const [reactEmployeeDirectory] = useState({
         title: "React Employee Directory",
         deployed: "https://star-gibson.github.io/React_EmployeeDirectory/",
         repo: "https://github.com/Star-Gibson/React_EmployeeDirectory",
@@ -31,54 +33,58 @@ const Project = () => {
     });
 
     return (
-        <div className="container">
-            <h1>Projects</h1>
-            <div className="card" id="portfolioDisplay">
-                <img className="card-img-top"src="/assets/img/DSR.gif"alt="dailyServiceRecord"/>
+        <div>
+            <Header />
+            <div className="container">
+                <h1>Projects</h1>
+                <div className="card" id="portfolioDisplay">
+                    <img className="card-img-top" src="/assets/img/DSR.gif" alt="dailyServiceRecord" />
                     <div className="card-body">
                         <h5 className="card-title">{dailyServiceRecord.title}</h5>
                         <p className="card-text">{dailyServiceRecord.info}</p>
                         <div className="cardButtons">
-                        <a href={dailyServiceRecord.repo}className="btn btn-primary">Repository</a>
-                        <a href={dailyServiceRecord.deployed}className="btn btn-primary">Live Application</a>
+                            <a href={dailyServiceRecord.repo} className="btn btn-primary">Repo <i className="fas fa-code"></i></a>
+                            <a href={dailyServiceRecord.deployed} className="btn btn-primary">Deployed <i className="fas fa-mouse-pointer"></i></a>
                         </div>
                     </div>
-            </div>
-            <div className="card" id="portfolioDisplay">
-               <img className="card-img-top"src="/assets/img/reactEmployeeDirectory.png" alt="reactEmployeeDirectory"/>
+                </div>
+                <div className="card" id="portfolioDisplay">
+                    <img className="card-img-top" src="/assets/img/reactEmployeeDirectory.png" alt="reactEmployeeDirectory" />
                     <div className="card-body">
                         <h5 className="card-title">{reactEmployeeDirectory.title}</h5>
                         <p className="card-text">{reactEmployeeDirectory.info}</p>
                         <div className="cardButtons">
-                        <a href={reactEmployeeDirectory.repo} className="btn btn-primary">Repository</a>
-                        <a href={reactEmployeeDirectory.deployed}className="btn btn-primary">Live Application</a>
+                            <a href={reactEmployeeDirectory.repo} className="btn btn-primary">Repo <i className="fas fa-code"></i></a>
+                            <a href={reactEmployeeDirectory.deployed} className="btn btn-primary">Deployed <i className="fas fa-mouse-pointer"></i></a>
                         </div>
                     </div>
-            </div>
-            <div className="card" id="portfolioDisplay">
-                <img className="card-img-top"src="/assets/img/budgetTracker.png" alt="budgetTrackerImage"/>
+                </div>
+                <div className="card" id="portfolioDisplay">
+                    <img className="card-img-top" src="/assets/img/budgetTracker.png" alt="budgetTrackerImage" />
                     <div className="card-body">
                         <h5 className="card-title">{budgetTracker.title}</h5>
                         <p className="card-text">{budgetTracker.info}</p>
                         <div className="cardButtons">
-                        <a href={budgetTracker.repo}className="btn btn-primary">Repository</a>
-                        <a href={budgetTracker.deployed} className="btn btn-primary">Live Application</a>
+                            <a href={budgetTracker.repo} className="btn btn-primary">Repo <i className="fas fa-code"></i></a>
+                            <a href={budgetTracker.deployed} className="btn btn-primary">Deployed <i className="fas fa-mouse-pointer"></i></a>
                         </div>
                     </div>
-            </div>
-            <div className="card" id="portfolioDisplay">
-               <img className="card-img-top"src="/assets/img/workdayScheduler.png" alt="workdayScheduler"/>
+                </div>
+                <div className="card" id="portfolioDisplay">
+                    <img className="card-img-top" src="/assets/img/workdayScheduler.png" alt="workdayScheduler" />
                     <div className="card-body">
                         <h5 className="card-title">{workScheduler.title}</h5>
                         <p className="card-text">{workScheduler.info}</p>
                         <div className="cardButtons">
-                        <a href={workScheduler.repo} className="btn btn-primary">Repository</a>
-                        <a href={workScheduler.deployed}className="btn btn-primary">Live Application</a>
+                            <a href={workScheduler.repo} className="btn btn-primary">Repo <i className="fas fa-code"></i></a>
+                            <a href={workScheduler.deployed} className="btn btn-primary">Deployed <i className="fas fa-mouse-pointer"></i></a>
                         </div>
                     </div>
+                </div>
             </div>
+            <Footer />
         </div>
-            
+
     )
 }
 
