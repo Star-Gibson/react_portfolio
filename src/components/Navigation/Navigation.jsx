@@ -9,7 +9,7 @@ const Navigation = () => {
                 <Link to="/">Home</Link>
                 <Link to="/portfolio">Portfolio</Link>
                 <Link to="/contact">Contact</Link>
-                <a href="./assets/img/Samuel_Star_Gibson_Updated_Resume copy.pdf" download>Resume</a>
+                <a href="./assets/img/StarGibson_WebDeveloper.pdf" download>Resume</a>
                 </div>
         </div>
     )
